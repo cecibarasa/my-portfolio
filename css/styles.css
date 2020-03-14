@@ -12,6 +12,9 @@ body{
   background-image: url(Image/hands.jpg);
   background-attachment: fixed;
 }
+img{
+  opacity: 0.5px;
+}
 .footer {
   position: bottom;
   left: 0;
