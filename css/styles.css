@@ -10,7 +10,7 @@ width: 900px;
 }
 body{
   background-image: url(Image/hands.jpg);
-  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .footer {
   position: bottom;
