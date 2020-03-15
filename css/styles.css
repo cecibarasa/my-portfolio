@@ -50,6 +50,11 @@ div1{
 }
 
 /* Set a specific color for each brand */
+/* LinkedIn */
+.fa-linkedin{
+  background: cornflowerblue;
+  color: white;
+}
 
 /* Facebook */
 .fa-facebook {
