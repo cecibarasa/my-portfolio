@@ -18,6 +18,10 @@ span{
   background-size: 100%;
   color:  white;
 }
+nav{
+  background-color: gray;
+  padding: 50px;
+}
 img{
   float: left;
   height: 450px;
