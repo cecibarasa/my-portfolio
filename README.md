@@ -6,3 +6,4 @@ Languages and tools used- HTML, CSS.
 # Bugs- None
 Live site link- https://cecibarasa.github.io/my-portfolio/
 # Image/Portfolio.pdf
+license.
