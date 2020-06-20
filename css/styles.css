@@ -1,89 +1,113 @@
-div{
-  float: left;
-  width: 450px;
-  padding: 10px;
-  border: 5px solid gray;
-  margin: 0;
-  background-color: black;
-  height: 600px;
-  color: white;
+div {
+    float: left;
+    width: 450px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    background-color: black;
+    height: 600px;
+    color: white;
 }
-span{
-  float: right;
-  width: 700px;
-  padding: 20px;
-  border: 5px solid gray;
-  margin: 0;
-  background-image: url(Image/paint.jpg);
-  background-size: 100%;
-  color:  black;
+
+span {
+    float: right;
+    width: 700px;
+    padding: 20px;
+    border: 5px solid gray;
+    margin: 0;
+    background-image: url(Image/paint.jpg);
+    background-size: 100%;
+    color: black;
 }
-nav{
-  display: block;
-  color: #4d1a00;
-  padding: 20px;
-  width: 300px;
+
+nav {
+    display: block;
+    color: #4d1a00;
+    padding: 20px;
+    width: 300px;
 }
-img{
-  float: left;
-  height: 450px;
-  width: 450px;
+
+img {
+    float: left;
+    height: 450px;
+    width: 450px;
 }
-body{
-  background-image: url(Image/beach.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100%;
+
+body {
+    background-image: url(Image/beach.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-div1{
-  float: left;
-  position: bottom;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #080006;
-  color: white;
-  text-align: center;
+
+.div1 {
+    float: left;
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #080006;
+    color: white;
+    text-align: center;
 }
+
+
 /* Style all font awesome icons */
+
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
+
 
 /* Add a hover effect if you want */
+
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
+
 
 /* Set a specific color for each brand */
+
+
 /* LinkedIn */
-.fa-linkedin{
-  background: cornflowerblue;
-  color: white;
+
+.fa-linkedin {
+    background: cornflowerblue;
+    color: white;
 }
+
 
 /* Facebook */
+
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
+
 /* Twitter */
+
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
-} 
+    background: #55ACEE;
+    color: white;
+}
+
+
 /* Instagram */
+
 .fa-instagram {
-  background: #EC3083;
-  color: white;
-} 
+    background: #EC3083;
+    color: white;
+}
+
+
 /* Google+ */
-.fa-google{
-  background: red;
-  color: white;
-} 
+
+.fa-google {
+    background: red;
+    color: white;
+}
