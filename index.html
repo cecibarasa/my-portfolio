@@ -1,58 +1,105 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Portfolio</title>
-    <link href="css/Image/ceci.jpg" rel="stylesheet" type="text/css" media="all">
-    </head>
-    <body style="background-image: url(Image/beach.jpg);">
-        <link href="css/styles.css" rel="stylesheet" type="text/css" href="styles.css">
-        <div>
-        <img src="Image/ceci.jpg" width="250px" height="250px" rel="stylesheet" type="text/css" media="all">
-        <h1>Cecilia Nabalayo Barasa</h1>
-        <p><em>Software development student</em></p>
-        <p>My interest in programming is to be able to learn and gain skills to innotvate and create eco-friendly solutions to community probems.</p>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header class="masthead d-flex ">
+        <div class="container text-center my-auto ">
+            <h1 class="mb-1 ">Cecilia Barasa</h1>
+            <h3 class="mb-5 ">
+                <em>Software Developer</em>
+            </h3>
+            <a class="btn btn-primary btn-xl js-scroll-trigger " href="#portfolio">Find Out More</a>
         </div>
-        <span style="background-image: url(Image/paint.jpg);">
-        <h2>About Me</h2>
-        <p>Experience</p>
-        <ol>
-            <li>2018 : <strong>Mater Hospital</strong> - Data Entry</li>
-        </ol>    
-        </p>    
-        <p>Education</p>
-        <ol>
-            <li>2017-2018 : <strong>Africa Nazarene University</strong> - Information Technology</li>
-            <li>2016-2017 : <strong>Africa Nazarene University</strong> - Business Management</li>
-            <li>2012-2015 : <strong>Loreto Convent Valley Road</strong> - Kenya Certificate of Secondary Education</li>
-             </ol>
-        </p>
-        <ol>
-            <li><a href="https://cecibarasa.github.io/birth-certificate/"><nav>Birth Certificate Registration.</nav></a><p>Getting a Kenyan Birth Certificate can be tiresome and time consuming.<br>This project makes it easier with the registration of your details onlne<br>and authorization by the Government of Kenya by the use PHP and HTML</p></li>
-            <li><a href="https://cecibarasa.github.io/aacelens/"><nav>Aacelens Photography.</nav></a><p>Because every picture tells a story, I'd ove to do the same with the world.<br>The project is built by CSS and HTML</p></li>
-        </ol>
-        </nav>
-        <p>Hobbies</p>
-        <ul>
-            <li>Programming</li>
-            <li>Music</li>
-            <li>Photography</li>
-            <li>Gaming</li>
-            <li>Drawing</li>
-        </ul>
-        </span>
-        <footer>
-        <div1>
-            <h3>Contact</h3>
-        <p>P.O. BOX 2871; Nairobi</p>
-         <!-- Add icon library -->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-         <!-- Add font awesome icons -->
-         <a href="https://www.linkedin.com/in/cecilia-barasa-4a8311195/" class="fa fa-linkedin"></a>
-         <a href="https://www.facebook.com/cecibearf/" class="fa fa-facebook"></a>
-         <a href="https://twitter.com/timom.her" class="fa fa-twitter"></a>
-         <a href="https://www.instagram.com/__nabalayo/?hl=en.com" class="fa fa-instagram"></a>
-         <a href="https://google.com" class="fa fa-google"></a>
-        </div1> 
-        </footer>   
+        <div class="overlay "></div>
+    </header>
+    <section class="content-section" id="portfolio">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Portfolio</h3>
+                <h2 class="mb-5">Recent Projects</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Gallery</div>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/Image/shotss.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Instagram</div>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/Image/Screenshot.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Quotes</div>
+                                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/Screenshot.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#!">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Awwards Clone</div>
+                                <p class="mb-0"></p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="/Screenshotf.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/cecilia-barasa-4a8311195/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/barasa_cecilia">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="https://github.com/cecibarasa">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Cecilia Barasa 2020</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
